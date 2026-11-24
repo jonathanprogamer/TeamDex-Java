@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@drawable/bg_panel">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPokemon"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Imagen del Pokémon" />
+
+        <TextView
+            android:id="@+id/btnFavorito"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="top|end"
+            android:gravity="center"
+            android:text="♡"
+            android:textColor="#FACC15"
+            android:textSize="25sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtNumeroPokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="#0001"
+        android:textColor="#94A3B8"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtNombrePokemon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Bulbasaur"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/txtFormaRegional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="3dp"
+        android:background="@drawable/bg_badge_variant"
+        android:text="Forma de Hisui"
+        android:textColor="#FACC15"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

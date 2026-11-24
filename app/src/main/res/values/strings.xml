@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TeamDex</string>
+    <string name="titulo">TEAMDEX</string>
+    <string name="subtitulo">Tu aventura Pokemon comienza aqui</string>
+    <string name="pregunta_inicio">Que deseas hacer?</string>
+    <string name="mis_equipos">Mis equipos</string>
+    <string name="pokedex">Pokedex</string>
+    <string name="pokemon_favoritos">Pokemon favoritos</string>
+    <string name="creditos">App creada por Jonathan Julio y Victor Orellana</string>
+</resources>

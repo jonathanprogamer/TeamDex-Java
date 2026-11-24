@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414931460132",
+    "project_id": "teamdex-e2c76",
+    "storage_bucket": "teamdex-e2c76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414931460132:android:355c9c3e820a055448b8b1",
+        "android_client_info": {
+          "package_name": "com.example.teamdex_java"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5YkvbedbdbV-zMKr_GI-c7a-sDESliT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
